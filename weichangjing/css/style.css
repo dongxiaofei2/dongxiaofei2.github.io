@@ -212,9 +212,10 @@ body {
     font-size: 14px;
 }
 
-.s2 .text p{
+.s2 .text p {
     margin-bottom: 10px;
 }
+
 .s2 span {
     position: absolute;
     bottom: 0;
@@ -222,11 +223,11 @@ body {
     width: 120px;
     height: 30px;
     margin-left: -60px;
-    background:-moz-linear-gradient(left,#00e7f7,#00fc9f);/*Mozilla*/
-    background:-webkit-gradient(linear,0 50%,100% 50%,from(#00e7f7),to(#00fc9f));/*Old gradient for webkit*/
-    background:-webkit-linear-gradient(left,#00e7f7,#00fc9f);/*new gradient for Webkit*/
-    background:-o-linear-gradient(left,#00e7f7,#00fc9f); /*Opera11*/
-    color:#000;
+    background: -moz-linear-gradient(left, #00e7f7, #00fc9f); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00e7f7), to(#00fc9f)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00e7f7, #00fc9f); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00e7f7, #00fc9f); /*Opera11*/
+    color: #000;
     font-size: 16px;
     line-height: 30px;
     border-radius: 20px;
