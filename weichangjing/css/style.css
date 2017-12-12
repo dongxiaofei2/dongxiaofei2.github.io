@@ -59,11 +59,12 @@ body {
     transform: rotateZ(0deg);
     animation: mp3btnkey 2.5s linear infinite;
 }
+
 @keyframes mp3btnkey {
-    0%{
+    0% {
         transform: rotateZ(0deg);
     }
-    100%{
+    100% {
         transform: rotateZ(360deg);
     }
 }
@@ -74,7 +75,7 @@ body {
 
 /* .s1*/
 
-.s1, .s2 {
+.s1, .s2 .s3 {
     background: url("../img/bj.png");
     height: 100%;
 }
