@@ -91,7 +91,7 @@ body {
 
 /* .s1*/
 
-.s1, .s2 .s3 {
+.s1, .s2, .s3 {
     background: url("../img/bj.png");
     height: 100%;
 }
