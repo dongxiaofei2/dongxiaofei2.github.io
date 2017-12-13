@@ -36,11 +36,27 @@ body {
 .swiper-button-next {
     position: absolute;
     top: auto;
-    bottom: 5%;
+    bottom: 3%;
     left: 50%;
     right: auto;
     margin-left: -13.5px;
     transform: rotateZ(-90deg);
+    width: 17px;
+    height: 34px;
+    background-size: 17px 34px;
+    animation: buttonnext 1s infinite;
+    opacity: 1;
+}
+
+@keyframes buttonnext {
+    0% {
+        bottom: 3%;
+        opacity: 1;
+    }
+    100% {
+        bottom: 6%;
+        opacity: 0;
+    }
 }
 
 /*音乐按钮的样式*/
@@ -174,10 +190,30 @@ body {
 
 .s1 .footer img:nth-of-type(1) {
     left: 0;
+    animation: footerimg1 1.5s alternate infinite;
 }
 
 .s1 .footer img:nth-of-type(2) {
     left: -90px;
+    animation: footerimg2 1.5s alternate infinite;
+}
+
+@keyframes footerimg1 {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: 20px;
+    }
+}
+
+@keyframes footerimg2 {
+    0% {
+        left: -90px;
+    }
+    100% {
+        left: -110px;
+    }
 }
 
 /*第二屏的样式*/
